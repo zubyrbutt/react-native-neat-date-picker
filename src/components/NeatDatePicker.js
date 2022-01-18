@@ -181,7 +181,7 @@ const NeatDatePicker = ({
                     {/* next month */}
                     <TouchableOpacity style={styles.changeMonthTO} onPress={onNext} disabled={btnDisabled} >
                         {/* <MDicon name={'keyboard-arrow-right'} size={32} color={headerTextColor} /> */}
-                        Arrow right
+                        <Text>Arrow right</Text>
                     </TouchableOpacity>
                 </View>
 
