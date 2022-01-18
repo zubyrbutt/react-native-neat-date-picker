@@ -3,7 +3,7 @@ import { StyleSheet, TouchableOpacity, View, Text, Dimensions, Platform } from '
 import Modal from 'react-native-modal'
 import PropTypes from 'prop-types'
 import useDaysOfMonth from '../hooks/useDaysOfMonth';
-import MDicon from 'react-native-vector-icons/MaterialIcons'
+
 import { getMonthInChinese, getMonthInEnglish } from '../lib/lib';
 import ChangeYearModal from './ChangeYearModal';
 // import {
